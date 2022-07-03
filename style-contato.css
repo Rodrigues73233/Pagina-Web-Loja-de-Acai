@@ -1,0 +1,146 @@
+/* Configuração Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #6d2358;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  background-color: #562f72;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  transition: 0.3s; 
+}
+
+.logo:hover {
+  filter: brightness(0.6);
+  border-left: 5px solid #3C3C58;
+  padding-left: 10px;
+}
+
+.links-pagina {
+  display: flex;
+}
+
+.links-pagina a {
+  margin-right: 30px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.links-pagina a:hover {
+  filter: brightness(0.6);
+  border-bottom: 3px solid #3C3C58;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.links-pagina a:nth-child(3) {
+  filter: brightness(0.6);
+  border-left: 3px solid #3C3C58;
+  border-bottom: 3px solid #3C3C58;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+header a {
+  color: white;
+}
+
+/* Main */
+
+main {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-inline: 10px;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 50vh;
+  margin-bottom: 54px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+/* Container */
+
+.container {
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+}
+
+.title h3 {
+  font-size: 30px;
+  color: #562f72;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title h4 {
+  font-size: 20px;
+  color: #3C3C58;
+  margin-bottom: 20px;
+}
+
+
+.text {
+  display: inline-block;
+  text-align: center;
+}
+
+.text div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text strong {
+  color: #6d2358;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.text p {
+  display: inline-block;
+  color: #3C3C58;
+  font-size: 18px;
+}
+
+/* Footer */
+
+footer {
+  display: block;
+  background-color: #562f72;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+}
